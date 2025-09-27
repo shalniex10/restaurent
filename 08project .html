@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+
+        }
+        body{
+            height: 100vh;
+        }
+        nav{
+            height: 10%;
+            width: 100%;
+          /* border: 2px solid red;*/
+           background-color: rgb(74, 6, 138);
+           position: fixed;
+           z-index: 1;
+
+        }
+        strong{
+            margin-top: 3%;
+            margin-left: 5%;
+            display: inline;
+            font-size: 2rem;
+            color: white;
+        
+        }
+        #serch{
+            margin-left: 1%;
+            width: 17%;
+            height: 50%;
+            border: 2px solid;
+            border-radius: 17px;
+            margin-top: 1%;
+            color: white;
+           
+            background-color: rgb(74, 6, 138);
+           
+          
+            
+           
+           
+
+        }
+        .home{
+            border-radius: 17px;
+            width: 8%;
+            margin-left: 2%;
+            height: 40%;
+           
+           
+            color: white;
+            border-color: white;
+            filter: drop-shadow(1px 2px 2px);
+            background-color: rgb(74, 6, 138);
+           
+           
+
+            
+        }
+        .home:hover{
+            color: white;
+            background-color: blue;
+        }
+        .ri-align-justify{
+            font-size: 150%;
+           margin-left: 19%;
+        }
+        
+          
+
+        
+        #sec1{
+        height: 90%;
+           
+        border: 2px solid rgb(10, 10, 10);
+
+      background-color: rgb(74, 6, 138);
+     
+        border-bottom-right-radius: 35%;
+            
+        }
+        #cricle{
+            height: 40%;
+            width: 18%;
+            border: 2px solid;
+            border-radius: 50%;
+            color: wheat;
+            filter: drop-shadow(1px 2px 3px);
+           
+            margin-top: 5%;
+            margin-left: 6%;
+            border-color: blueviolet;
+        }
+        #cricle2{
+            height: 70%;
+            width: 60%;
+            border: 2px solid;
+            border-radius: 50%;
+            color: wheat;
+            float: left;
+           
+            margin-top: 10%;
+            margin-left: 17%;
+             border-color: blueviolet;
+            
+            
+
+        }
+        #rectangle{
+            height: 40%;
+            width: 18%;
+            border: 2px solid;
+            border-radius: 50%;
+            color: wheat;
+            filter: drop-shadow(1px 2px 3px);
+           float: right;
+             margin-right: 6%;
+              border-color: blueviolet;
+
+          
+           
+            
+
+        }
+        #rectangle2{
+             height: 70%;
+            width: 60%;
+            border: 2px solid;
+            border-radius: 50%;
+            color: wheat;
+            float: left;
+             border-color: blueviolet;
+           
+            margin-top: 10%;
+            margin-left: 17%;
+
+
+           
+        }
+         #image{
+            height: 60%;
+            width: 70%;
+            border: 5px solid;
+            margin-top: -15%;
+            margin-left: 17%;
+            border-radius: 29px;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-color: blue;
+            background-size: cover;
+            background-image: url(https://media.istockphoto.com/id/1340516763/photo/empty-classroom.webp?a=1&b=1&s=612x612&w=0&k=20&c=jbYGCEpqm8nTe-qwaydKnKU0zxQ1nYVMBsj2P0Sqez0=);
+
+           
+            position: absolute;
+            }
+            #teacher{
+                height: 50%;
+                width: 50%;
+               /* border: 2px solid blue;*/
+                margin-left: 5%;
+                color: white;
+                filter: drop-shadow(2px 2px 2px);
+
+            }
+            #course{
+                margin-top: 3%;
+                margin-left: 5%;
+                height: 7%;
+                width: 12%;
+                border-radius: 19px;
+                background-color: blueviolet;
+                color: white;
+            }
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #demo{
+                height: 18%;
+                width: 22%;
+                border-radius: 17px;
+                background-color: azure;
+                color: blueviolet;
+                margin-top: 1%;
+
+            }
+            #scroll{
+                height: 23%;
+                width: 14%;
+               /* border: 2px solid;*/
+                border-radius: 50%;
+                margin-left: 26%;
+                margin-top: -9%;
+                background-color: azure;
+                color: blueviolet;
+                font-size: 2rem;
+                padding-left: 3.3%;
+                padding-top: 1%;
+               
+                
+            }
+            h3{
+                
+            }
+            main{
+                /*border: 2px  solid;*/
+                height: 100%;
+                width: 100%;
+            }
+            #sec2{
+                height: 100%;
+                width: 100%;
+              /*  border: 2px solid blue;  */
+                      }
+                      #one{
+                        height: 39%;
+                        width: 55%;
+                       /* border: 2px solid;*/
+                        margin-left: 18%;
+                        margin-top: 5%;
+                        display: flex;
+                       
+                      }
+                      .box{
+                        height: 80%;
+                        width: 34%;
+                       /*border: 2px solid;*/
+                        margin-top: 4%;
+                       background: #EEAECA;
+background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 0%);
+                       border-radius: 17px;
+                       margin-left: 5%;
+                       padding-left: 1%;
+                       padding-top: 1%;
+                      }
+                      .circl1{
+                        padding-top: 4%;
+                        height: 49%;
+                        width: 49%;
+                        border: 2px solid;
+                        border-radius: 50%;
+                        margin-left: 69%;
+                        margin-top: -99%;
+                        background-color: rgb(103, 44, 158);
+                        
+                      }
+                      
+                      .ri-home-wifi-line{
+                        font-size: 3.7rem;
+                        padding-left: 19%;
+                       
+                        color: white;
+                        filter: drop-shadow(1px 1px 1px);
+                      }
+                      .ri-bank-line{
+                        font-size: 3.7rem;
+                        padding-left: 19%;
+                       
+                        color: white;
+                        filter: drop-shadow(1px 1px 1px);
+
+
+                      }
+                      .ri-color-filter-line{
+                        font-size: 3.7rem;
+                        padding-left: 19%;
+                       
+                        color: white;
+                        filter: drop-shadow(1px 1px 1px);
+
+                      }
+                      .readmore{
+                        margin-top: 10%;
+                        border-radius: 17px;
+                        width: 50%;
+                        height: 15%;
+                        border-color: white;
+                        background-color: white;
+                        margin-left: 6%;
+                      }
+                      #two{
+                        
+                        height: 50%;
+                        width: 40%;
+                       /* border: 2px solid;*/
+                       
+                        border-radius: 22px;
+                        background-color: blueviolet;
+                        float: left;
+                        margin-left: 14%;
+
+                      }
+                      input{
+                        margin-top: 2%;
+                        margin-left: 5%;
+                        padding:13px 50px;
+                       /* border: 2px solid;*/
+                        border-radius: 17px;
+                        color: black;
+                      }
+                      textarea{
+                         margin-top: 2%;
+                        margin-left: 5%;
+                        border-radius: 17px;
+                        padding-top: 2%;
+                        padding-left: 4%;
+
+                      }
+                      #text{
+                        width: 90%;
+                        height: 30%;
+                        
+
+                      }
+                      #three{
+                        height: 40%;
+                        width: 45%;
+                        margin-top: 3%;
+                       /* border: 2px solid;*/
+                        float: right;
+                        margin-right: 1%;
+                       
+                        
+                        background: #EEAECA;
+background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgb(116, 167, 223) 0%);
+padding-left: 3%;
+padding-top: 2%;
+                      }
+                      #discover{
+                       
+                        width: 23%;
+                        height: 14%;
+                        border-radius: 17px;
+                        font-size: 1rem;
+                        
+                       
+                      }
+                       #discover:hover{
+                        background-color: blueviolet;
+                        color: white;
+                        border-color: white;
+                       }
+                       #sec3{
+                        height: 100%;
+                        width: 100%;
+                        border: 2px solid blue;
+                        
+                       }
+                       #on{
+                        height: 7%;
+                        width: 10%;
+                        /*border: 2px solid;*/
+                        margin: auto;
+                        color: blueviolet;
+border-radius: 5%;
+text-align: center;
+padding-top: 0.6%;
+
+margin-top: 0.1%;
+
+
+                       }
+                       #tw{
+                        height: 7%;
+                        width: 20%;
+                        /*border: 2px solid;*/
+                        margin-top: 1%;
+                    margin-left: 40%;
+                    
+                       
+border-radius: 5%;
+text-align: center;
+padding-top: 0.6%;
+
+
+                       }
+                       #th{
+                        height: 7%;
+                        width: 30%;
+                        /*border: 2px solid;*/
+                        margin-top: 1%;
+                    margin-left: 35%;
+                    background-color: rgb(192, 144, 237);
+                    padding-top: 1%;
+                       
+border-radius: 17px;
+text-align: center;
+
+
+                       }
+                       #th,a{
+                       
+                       
+                        text-decoration: none;
+                        color: black;
+                        filter: drop-shadow(1px 1px 1px);
+                        }
+                        #devlopment{
+                            height: 35%;
+                            width: 90%;
+                           /* border: 2px solid;*/
+                            margin: 1%;
+                            margin-left: 5%;
+                        }
+                        #design{
+                            height: 35%;
+                            width: 90%;
+                           /* border: 2px solid;*/
+                            margin: 1%;
+                            margin-left: 5%;
+
+                        }
+                        .course{
+                            height: 100%;
+                            width: 32%;
+                           /* border: 2px solid;*/
+                            display: inline-flex;
+                            
+                            margin-left: 1%;
+                        }
+                        .coursedesign{
+                            border: 2px solid;
+                            height: 60%;
+                            width: 100%;
+                            border-radius: 16px;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            
+                        }
+                        .information
+                        {
+                            height: 70%;
+                            width: 100%;
+                            border: 2px solid;
+                            margin-top: 34%;
+                            
+                           border-bottom-left-radius: 17px;
+                           border-bottom-right-radius: 17px;
+                            background-color: rgb(192, 144, 237);
+                            padding-left: 5%;
+                            padding-top: 2%;
+                            
+
+                        }
+                        .web{
+                            color: blueviolet;
+                            
+                        }
+                        .c1{
+                            height: 20%;
+                            width: 20%;
+                            border: 2px solid;
+                            border-radius: 50%;
+                            margin-left: 80%;
+                            margin-top: -1%;
+                           
+                        }
+#sec4{
+    height: 100%;
+    width: 100%;
+  /* border: 2px solid;*/
+
+}
+#grate{
+    height: 30%;
+    width: 15%;
+   /* border: 2px solid;*/
+    border-radius: 50%;
+   margin-left: 30%;
+  position: relative;
+  color: white;
+
+  
+  
+}
+#grate1{
+     height: 80%;
+    width: 60%;
+   /* border: 2px solid;*/
+    border-radius: 50%;
+   margin: auto;
+   opacity: 0.5;
+   
+
+
+}
+.part{
+    height: 30%;
+    width: 70%;
+   /* border: 2px solid;*/
+    margin-top: -5.6%;
+    margin-left: 13%;
+  background-color: blueviolet;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+   
+
+}
+.part,ul{
+    display: flex;
+    font-size: 4rem;
+    padding-top: 3%;
+    color: white;
+   
+
+    
+}
+#boxmodel{
+    height: 33%;
+    width: 68%;
+   /* border: 2px solid;*/
+   margin-left: 13%;
+   margin-top: 9%;
+   display: flex;
+  
+}
+.boxmwdel1{
+    height: 100%;
+    width: 30%;
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    background-color: rgb(192, 144, 237);
+    margin-left: 1%;
+   
+    
+   
+
+}
+.cirlas{
+    height: 70%;
+    width: 60%;
+   border: 2px solid;
+    border-color:rgb(192, 144, 237); 
+    border-radius: 50%;
+    margin-top: -28%;
+    margin-left: 21%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cirlas:hover{
+    border: 5px solid blue;
+    filter: drop-shadow(2px 2px 2px);
+}
+.model{
+    margin-top: 120%;
+    text-align: center;
+    color: blueviolet;
+}
+.fa-brands fa-facebook{
+    color: blueviolet;
+
+}
+#sec5{
+    /*border: 2px solid;*/
+    height: 100%;
+    width: 100%;
+
+}
+#about{
+    height: 70%;
+    width: 50%;
+   /* border: 2px solid;*/
+    margin-left: 9%;
+    margin-top: 7%;
+    
+    float: right;
+    position: relative;
+    margin-right: 15%;
+    border-radius: 20% 1px 1px 20%;
+    background-color: rgb(192, 144, 237);
+
+
+}
+#about1{
+     height: 70%;
+    width: 70%;
+   /* border: 2px solid;*/
+   right: 50%;
+    
+    position: relative;
+    background-color: blueviolet;
+    border-radius: 17px;
+    margin-top: 10%;
+    color: white;
+    padding: 5%;
+    margin-top: -26%;
+
+    
+
+}
+#p1{
+    height: 50%;
+    width: 30%;
+   /* border: 2px solid;*/
+    border-radius: 50%;
+    margin-top: 4%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1685464144006-bd5f9d3e8eaf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHdvbWFuJTIwZ2lybHMlMjBtb2RlJTIwb25seSUyMGZvciUyMGZhY2V8ZW58MHx8MHx8fDA%3D);
+}
+#pi{
+margin-left: 35%;
+margin-top: -19%;
+
+   
+}
+#about>h1{
+    color:black;
+     padding-top: 7%;
+    padding-left: 25%;
+    padding-right: 5%;
+   
+  
+
+
+}
+#about>p{
+    padding-top: 7%;
+    padding-left: 25%;
+    color: black;
+}
+#sec6{
+   /* border: 2px solid;*/
+    height: 100%;
+    width: 100%;
+
+}
+#a1{
+    color: blueviolet;
+    margin-left: 44%;
+    
+}
+.events{
+    /*border: 2px solid;*/
+    height: 20%;
+    width: 80%;
+    margin: 2% 5% 5% 10%;
+     background-color: rgb(192, 144, 237);
+     display: flex;
+     position: relative;
+}
+.events:hover{
+    border: 9px solid hotpink;
+    filter: drop-shadow(2px 2px 3px);
+}
+.event{
+   /* border: 2px solid;*/
+    height: 130%;
+    width: 20%;
+    border-radius: 19px;
+    margin-top: -2%;
+    margin-left: 2%;
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.event:hover{
+    border: 5px solid blue;
+    filter: drop-shadow(2px 2px 3px);
+    border-radius: 50%;
+
+}
+.ev1{
+    margin-top: 2%;
+    margin-left: 8%;
+    height: 60%;
+    width: 15%;
+   /* border: 2px solid;*/
+}
+.b1{
+   margin: 2%;
+    height: 40%;
+    width: 70%;
+    border-radius: 30px;
+    background-color: #f7eff2;
+    color: blueviolet;
+}
+.ev2{
+    height: 60%;
+    width: 15%;
+   /* border: 2px solid;*/
+    margin-left: 4%;
+    margin-top: 2%;
+    color: rgb(15, 15, 15);
+}
+.halfc1{
+    height: 85%;
+    width: 10%;
+    /*border: 2px solid;*/
+    margin-left: 2%;
+    margin-top: 1%;
+    overflow: hidden;
+    
+
+}
+.halfc2{
+   /* border: 2px solid;*/
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin-left: 37%;
+    background-color: rgb(84, 6, 209);
+}
+.ev1>h3{
+    margin-top: 3%;
+}
+.ev2>p{
+   padding: 13%;
+}
+#sec7{
+    height: 100%;
+    width: 100%;
+   /* border: 2px solid;*/
+   
+
+}
+#contact{
+    height: 60%;
+    width: 50%;
+   /* border: 2px solid;*/
+    float: left;
+    position: relative;
+     margin-top: 1%;
+    margin-left: 12%;
+     border-radius: 1% 190px 190px 1%;
+     background-color: rgb(192, 144, 237);
+     padding-right: 17%;
+     padding-top: 2%;
+     padding-left: 2%;
+     filter: drop-shadow(2px 2px 2px);
+}
+
+#spcial{
+    height: 25%;
+    width: 90%;
+   /* border: 2px solid;*/
+    margin-top: 8%;
+    border-radius: 15px;
+    background-color: white;
+
+}
+#sp1{
+   
+    height: 100%;
+    width: 15%;
+   /* border: 2px solid;*/
+      border-radius: 1% 190px 190px 1%;
+      background-color: rgb(107, 9, 199);
+      filter: drop-shadow(2px 2px 2px);
+      padding-top: 5%;
+      color: white;
+    
+
+
+}
+#sp1>p,  #sp1>h2{
+    filter: drop-shadow(1PX 1PX 1PX);
+}
+#V1{
+    margin-left: 17%;
+    margin-top: -17%;
+
+}
+#v2{
+    margin-left: 37%;
+    margin-top: -5%;
+    color: blueviolet;
+  
+
+}
+#v3{
+    margin-left: 17%;
+    margin-top: 0.9%;
+   
+
+}
+#contact2{
+     height: 50%;
+    width: 40%;
+    /*border: 2px solid;*/
+   
+     position: relative;
+     margin-top: 3%;
+     margin-left: 49%;
+     background-color: blueviolet;
+     padding-left: 3%;
+     padding-top: 0.3%;
+    
+}
+#border1{
+    margin-top: 6%;
+    height: 13%;
+    width: 85%;
+    border: 2px solid;
+    border-radius: 17px;
+    position: relative;
+     border-color: white;
+     opacity: 0.8;
+     filter: drop-shadow(1px 2px 2px);
+
+}
+#border1:hover{
+    background-color: blueviolet;
+    opacity: 0.5;
+    border: 5px solid white;
+
+}
+#new{
+    height: 10%;
+    width: 30%;
+    border-radius: 29px;
+    margin-top: 2%;
+}
+#new:hover{
+    border-color: blanchedalmond;
+    background-color: black;
+    color: white;
+    filter: drop-shadow(2px 2px 3px);
+}
+#bor1{
+    margin-right: 30%;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 3%;
+    color: white;
+   
+}
+#fotter{
+    height: 25%
+    ;
+    width: 80%;
+   /* border: 2px solid;*/
+    margin-top: 15%;
+    margin-left: 12%;
+    border-top-left-radius: 80px;
+   
+    background-color: blueviolet;
+    border-top-right-radius: 60px;
+  
+
+}
+#fotter:hover{
+    background-color: crimson;
+    border-color: #EEAECA;
+    border: 6px solid black;
+}
+#cr1{
+    
+    height: 100%;
+    width: 15%;
+    /*border: 2px solid;*/
+    overflow: hidden;
+   
+   
+
+}
+.cr2{
+    height: 100%;
+    width: 100%;
+    border: 2px solid;
+    border-radius: 50%;
+   
+    
+    margin-top: 44%;
+    margin-right:8%;
+   color: antiquewhite;
+   opacity: 0.4;
+    
+
+}
+.cr2:hover{
+    color: blue;
+}
+.cr3{
+    height: 80%;
+    width: 70%;
+    border-radius: 50%;
+     border: 2px solid;
+     margin-left: 15%;
+     margin-top: 9%;
+     color: #f7eff2;
+     opacity: 1.6;
+
+     
+}
+.cr3:hover{
+    color: blue;
+}
+#fotterpart{
+    margin-left: 22%;
+    margin-top: -10%;
+    color: white;
+    filter: drop-shadow(2px 2px 2px);
+}
+
+    
+   
+   
+    
+
+
+
+
+
+
+
+
+
+
+                       
+
+
+
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <strong>SCHOLAR</strong>  <button id="serch">Type somthing
+            <i class="ri-align-justify"></i>
+        </button>
+        <button class="home"> home</button>
+        <button class="home">Course</button>
+         <button class="home">Service</button>
+        <button class="home">Team</button>
+
+        <button class="home">Events</button>
+
+
+        <button class="home">Register Now</button>
+
+
+
+    </nav>
+    <head>
+        <section id="sec1">
+            <div id="cricle">
+            <div id="cricle2"></div>
+            </div>
+            <div id="rectangle">
+                <div id="rectangle2"></div>
+
+            </div>
+            <div id="image">
+                <button id="course">OUR COURSE</button>
+                <div id="teacher"><h1 style="font-size: 2.9rem;">With Scholar Teachers,<br>Everything IS Easier</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat deleniti rem tenetur labore itaque, provident doloremque iure in?</p>
+                    <br><br>
+                    <button id="demo">Request Demo</button>
+                   <div id="scroll"><i class="ri-signal-wifi-3-line"></i></div>
+                  
+
+                    
+                </div>
+            </div> 
+
+       
+        </section>
+       
+    </head>
+    <main>
+        <section id="sec2">
+            <div id="one">
+                <div class="box"><h3>online Degree</h3><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit nemo et sint. Numquam!<BR>
+                    <button class="readmore">REAED MORE</button>
+                   
+                   
+                    <div class="circl1">
+                        <i class="ri-home-wifi-line"></i>
+                    </div>
+                </div>
+                <div class="box"><h3>short crouse</h3><br>Lorem ipsum dolor sit amet consectetu nulla maxime eos quos?<br>
+                    <button class="readmore">REAED MORE</button>
+                    <div class="circl1">
+                        <i class="ri-bank-line"></i>
+                    </div>
+                </div>
+                <div class="box"><h3>Web Exports</h3><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. ipsam sint obcaecati tempora.<br>
+                    <button class="readmore">REAED MORE</button>
+                    <div class="circl1">
+                        <i class="ri-color-filter-line"></i>
+
+                    </div>
+                </div>
+            </div>
+            <div id="two">
+                <form action="">
+                    <input type="text" id="text" placeholder="Where shall we begin">
+                    <input type="text" placeholder="How do we work together">
+                    <textarea name="" id="" cols="33" rows="9" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ipsum?dolor sit amet consectetur adipisicing elit. Sequi, ipsum?dolor sit amet consectetur adipisicing elit. Sequi, ipsum?dolor sit amet consectetur adipisicing elit. Sequi, ipsum?</textarea>
+                    
+                    <input type="text" placeholder="Do we get the best support?">
+                </form>
+            </div>
+            <div id="three"><h1>What Make us The Best<br>Academy Online</h1><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nobis iure excepturi nemo nostrum harum tenetur rem dolorum quod quis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nobis iure 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nobis iure 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nobis iure 
+            </p><br>
+            <button id="discover">Discover </button>
+            </div>
+        </section>
+        <section id="sec3">
+            <div id="on"><P>LATEST COURSE</P></div>
+            <div id="tw"><h2>Latest Course</h2></div>
+            <div id="th">
+                <a href="#">show all</a>
+                <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Webdesign</a>
+                <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Development</a>
+                <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Wordpress</a>
+            </div>
+            <div id="devlopment">
+                <div class="course">
+                    <div class="coursedesign" style="background-image: url(https://media.istockphoto.com/id/1428720075/photo/a-woman-instructor-explaining-the-class-while-conducting-cpr-training.webp?a=1&b=1&s=612x612&w=0&k=20&c=5hj4GSYHiGtobOp1jf4gLblcKbNIkxBXJ2gGEmsSCOo=);">
+                        
+                        <div class="information">
+                            <p class="web">stalla Blair</p>
+                           <h3 style="padding-top: 3%;"> Learn Web Design</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="coursedesign" style="background-image: url(https://media.istockphoto.com/id/1491247578/photo/a-mid-adult-man-a-hazop-facilitator-conducting-a-study-of-an-oil-gas-plant-in-a-meeting-room.webp?a=1&b=1&s=612x612&w=0&k=20&c=hrE2Nlz8ZiEbxG6kDZpVTnnJV56wQ1oerIoYuYjGHwQ=);">
+                        
+                        <div class="information">
+                            <p class="web">Cindy Walker</p>
+                            <h3  style="padding-top: 3%;">web Devlopment Tips</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="course">
+                    <div class="coursedesign" style="background-image: url(https://media.istockphoto.com/id/1429680305/photo/mature-adult-teacher-talking-to-large-group-of-adult-students-in-classroom.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZonBZ8ktQi_jI0MVyFqqu3rPcbRDccmmnA1IbjTz3A8=);">
+                        
+                        <div class="information">
+                            <p class="web">Dovid Hutson</p>
+                            <h3 style="padding-top: 3%;">Latest Web Trends</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="design">
+                <div class="course">
+                    <div class="coursedesign " style="background-image: url(https://images.unsplash.com/photo-1571573750055-39cfc5545c23?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGVzaWduJTIwY291cmVzciUyMGNvbXB1dGVyJTIwdGVhY2hlcnxlbnwwfHwwfHx8MA%3D%3D);">
+
+                        
+                         <div class="information">
+                            <p class="web">stella Blair</p>
+                            <h3 style="padding: 3%;">Online Learing Steps</h3>
+                         </div>
+
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="coursedesign " style="background-image: url(https://media.istockphoto.com/id/942650650/photo/business-presentation-speaker-at-meeting.webp?a=1&b=1&s=612x612&w=0&k=20&c=DYbPhScozNJ_iU5fPKkNIy40mqg_WzVUdI_ES3eS2hQ=);">
+                       
+                         <div class="information">
+                            <p class="web">Sophia Rose</p>
+                             <h3 style="padding: 3%;">Be a wordpress Master</h3>
+                         </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="coursedesign " style="background-image: url(https://images.unsplash.com/photo-1695067231719-a700763a2541?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGRlc2lnbiUyMGNvdXJlc3IlMjBjb21wdXRlciUyMHRlYWNoZXIlMjB0ZWNofGVufDB8fDB8fHww);">
+                        
+                         <div class="information">
+                             <p class="web">David Hustson</p>
+                             <h3 style="padding: 3%;">Full Stack Development</h3>
+                         </div>
+                    </div>
+                </div>
+                
+            </div>
+                
+            
+
+        </section>
+        <section id="sec4">
+            <div id="grate">
+            <div id="grate1"></div>
+            </div>
+            <div class="part">
+                <ul>
+                    <ol style="padding-left: 35%;">789</ol><strong>+</strong><div id="s1"></div>
+                     <ol style="padding-left: 15%;">787</ol><strong>+</strong>
+                      <ol style="padding-left: 15%;">777</ol><strong>+</strong>
+                       <ol style="padding-left: 15%;">745</ol><strong>+</strong>
+                </ul>
+
+                
+            </div>
+            <div id="boxmodel">
+                <div class="boxmwdel1">
+                    <div class="cirlas" style="background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZSUyMG1vZGVsfGVufDB8fDB8fHww);">
+                        <p class="model">ux Teacher</p>&nbsp;
+                        <h3>Sophiya Rose</h3><br>
+                        <i class="fa-brands fa-facebook" style="color: blueviolet;font: sixe 3rem;" ></i>
+                        <i class="fa-brands fa-github" style="color: blueviolet;" ></i>
+                        <i class="fa-brands fa-twitter" style="color: blueviolet;" ></i>
+
+                    </div>
+                </div>
+                <div class="boxmwdel1">
+                     <div class="cirlas" style="background-image: url(https://images.unsplash.com/photo-1666577624653-b6f0043fed0e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZhY2UlMjBtb2RlbHxlbnwwfHwwfHx8MA%3D%3D);">
+                         <p class="model">Grophic Teacher</p>&nbsp;
+                        <h3>cindy Walker</h3><br>
+                        <i class="fa-brands fa-facebook"   style="color: blueviolet;" ></i>
+                        <i class="fa-brands fa-github" style="color: blueviolet;" ></i>
+                        <i class="fa-brands fa-twitter" style="color: blueviolet;" ></i>
+                     </div>
+                </div>
+                <div class="boxmwdel1">
+                     <div class="cirlas" style="background-image: url(https://images.unsplash.com/photo-1534008757030-27299c4371b6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW9kZWwlMjBmYWNlfGVufDB8fDB8fHww);" >
+                         <p class="model">full stock teacher</p>&nbsp;
+                        <h3>David Hustson</h3><br>
+                        <i class="fa-brands fa-facebook hide" style="color: blueviolet;"  ></i>
+                        <i class="fa-brands fa-github" style="color: blueviolet;" ></i>
+                        <i class="fa-brands fa-twitter" style="color: blueviolet;" ></i>
+                     </div>
+                </div>
+                <div class="boxmwdel1">
+                     <div class="cirlas"  style="background-image: url(https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmFjZSUyMG1vZGVsfGVufDB8fDB8fHww);">
+                         <p class="model">Digitak</p>&nbsp;
+                        <h3 style="padding-left: 22%;">Sella Blair</h3><br>
+                        <i class="fa-brands fa-facebook"   style="color: blueviolet;" ></i>
+                        <i class="fa-brands fa-github" style="color: blueviolet;" ></i>
+                        <i class="fa-brands fa-twitter" style="color: blueviolet;" ></i>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec5">
+            <div id="about"> <h1>What They say About Us?</h1>
+                <p>Lorem ipsumdolor sit amet, consectetur adipisicing elit. Deserunt, magnam corrupti sed doloribus vitae accusamus, dolor sit amet, consectetur adipisicing elit. Deserunt, magnam corrupti sed doloribus vitae accusamus, dolor sit amet, consectetur adipisicing elit. Deserunt, magnam corrupti sed doloribus vitae accusamus,  dolor sit amet, consectetur adipisicing elit. Deserunt, magnam corrupti sed doloribus vitae accusamus, nihil alias tenetur possimus eum ab excepturi iste hic eos qui praesentium nemo ratione fuga.</p>
+            <div id="about1">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatum et sunt deleniti magnam nemo voluptatibus quisquam cupiditate eos sapiente?ipsum dolor sit amet consectetur adipisicing elit. Esse
+                <div id="p1"> </div>
+                <p id="pi">full stock master<br><br><strong  >Claude David</strong> </p>
+            </div>
+        </div>  
+        
+        </section>
+        <section id="sec6">
+            <p id="a1">SCHEDULE</p>  
+           <h1 style="margin-left: 38%;">Upcoming Events</h1>
+           <div class="events">
+            <div class="event" style="background-image: url(https://images.unsplash.com/photo-1563394867331-e687a36112fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVhY2hlciUyMGNvbXB1dGVyfGVufDB8fDB8fHww);" >
+               
+            </div>
+             <div class="ev1">
+                <button class="b1">WEB DESIGN</button><BR> 
+                <h3>UI Best Practice</h3>
+
+             </div>
+             <div class="ev2"><p>DATE<br>12 mar 2025</p></div>
+             <div class="ev2"><p>Duration <BR>48 HOURSE</p></div>
+             <div class="ev2"><P>PRICE<BR>$440</P></div>
+             <div class="halfc1">
+                <div class="halfc2"></div>
+             </div>
+           </div>
+           
+                <div class="events">
+            <div class="event" style="background-image: url(https://images.unsplash.com/flagged/photo-1564445477052-8a3787406bbf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGVhY2hlciUyMGNvbXB1dGVyfGVufDB8fDB8fHww);"  ></div>
+             <div class="ev1">
+                <button class="b1">FRONT  ENO</button><BR> 
+                <h3>New Design Trend</h3>
+
+             </div>
+             <div class="ev2"><p>DATE<br>12 mar 2025</p></div>
+             <div class="ev2"><p>Duration <BR>68 HOURSE</p></div>
+             <div class="ev2"><P>PRICE<BR>$740</P></div>
+             <div class="halfc1">
+                 <div class="halfc2"></div>
+             </div>
+
+                </div>
+            </div>
+           </div>
+           <div class="events">
+           <div class="event" style="background-image: url(https://media.istockphoto.com/id/1262283526/photo/indian-girl-student-wear-headphones-learning-online-watching-webinar-class-looking-at-laptop.webp?a=1&b=1&s=612x612&w=0&k=20&c=djcmeAgDXgG6pMoiubDGzzveTdQldVXbm0hzZUFonpc=);" ></div>
+           <div class="ev1">
+                <button class="b1">full stack</button><br>
+                <h3>Web programing</h3>
+
+             </div>
+             <div class="ev2"><p>DATE<br>12 mar 2025</p></div>
+             <div class="ev2"><p>Duration <BR>48 HOURSE</p></div>
+             <div class="ev2"><P>PRICE<BR>$5    `140</P></div>
+             <div class="halfc1">
+                 <div class="halfc2"></div>
+             </div>
+           </div>
+          
+
+        </section>
+        <section id="sec7">
+            <div id="contact">
+                <h1 style="filter: drop-shadow(1px 1px 1px);">Fell Free To Contact Us Anytime</h1>
+                <br><br><br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, deleniti quis quia sit ad repellendus culpa! Non maxime quibusdam unde facere sunt, nobis officiis dolores dolorem facilis deserunt vel minus?</p>
+                <div id="spcial">
+                    <div id="sp1"> <p>OFF</p>
+                        <h2>50%</h2>
+
+                    </div>
+                   <P id="V1"> VALIDE :</P><p id="v2">24 APRIAL 2026</p>
+                  <h2 id="v3">special offer<strong style="color: blueviolet; font-size:1.5rem">50% OFF 1</strong></h2>
+                    
+                   
+                </div>
+            </div>
+            <div id="contact2">
+                <div id="border1"><p id="bor1">YOUR NAME...</p></div>
+                <div id="border1"><p id="bor1">YOUR E- Mail</p></div>
+                <div id="border1" style="height: 30%;"> <p id="bor1">Your Message</p></div>
+                <button id="new"> Send Message New</button>
+
+                
+            </div>
+            <div id="fotter">
+                <div id="cr1">
+                    <div class="cr2">
+                        <div class="cr3"></div>
+                    </div>
+                </div>
+                <h4 id="fotterpart">Lorem ipsum dolor sit amet consecteecusandae natus? In tenetur libero earum accusamus.</h3>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
